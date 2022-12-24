@@ -1,13 +1,16 @@
 import React from 'react'
 
+
+
 function Home() {
   return (
-    <div className='flex bg-orange-300 justify-between items-center'>
-        <a href='/' className=' flex  text-3xl mr-4'>🎮</a>
-        <ul className='flex items center pr-60'>
-            <li className='mr-4'>Price Checker</li>
-            <li>How it works</li>
-        </ul>
+// Header text cetner of screen
+    <div className=" flex h-screen place-items-center">
+      <div className='mx-auto place-items-center'>
+        <h1 className='py-3.5 text-6xl'>All Things Nasa</h1>
+        <button className="btn btn-outline mx-auto">Start Here</button>
+      </div>
+      
     </div>
   )
 }
