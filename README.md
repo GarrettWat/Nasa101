@@ -1,9 +1,46 @@
-Nasa API Tracker
-Designed a web application using React JS and JavaScript to display Nasa API info.
-Leveraged Built-in functions useState and useEffect to take user input and load data when pages load.
-Created a Sleek user-friendly design using Tailwind CSS and Daisy UI.
-Programmed CRUD operations allowing access to NASA API data.
+# Nasa API Tracker
+
+Constantly updated Aaplicationthat allows users to traverse through Nasa API. Allows None
+Programmers to easily access Nasa API Info
 
 
-Once Cloned, install dependencies.
+
+## Dev Dependencies
+- Daisy UI
+- React
+- React DOM
+- React Router DOM
+## To Do
+- [x]  Astronomy Pictur of the Day
+- [ ]  Earth Picture Generator
+- [ ]  Mars Weather Service API
+- [ ]  Mars Rover Photos
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
 
