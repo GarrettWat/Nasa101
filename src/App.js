@@ -11,8 +11,8 @@ const App = () =>(
     <Routes>
       <Route path='/' exact element = {<Home />}/>
       <Route path='/Quote' exact element = {<QuotePage />}/>
-      <Route path='/Apod' element = {<Apod />}/>
-      <Route path='/earth' element = {<Earth />}/>
+      <Route path='/apod' exact element = {<Apod />}/>
+      <Route path='/earth' exact element = {<Earth />}/>
     </Routes>
   </BrowserRouter>
 )
