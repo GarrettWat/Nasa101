@@ -11,7 +11,7 @@ Programmers to easily access Nasa API Info
 - React DOM
 - React Router DOM
 ## To Do
-- [x]  Astronomy Pictur of the Day
+- [x]  Astronomy Picture of the Day
 - [ ]  Earth Picture Generator
 - [ ]  Mars Weather Service API
 - [ ]  Mars Rover Photos
