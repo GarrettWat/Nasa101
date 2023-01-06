@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
-
+import apiKey from '../const'
 
 function Apod() {
   const [apod, setApod] = useState([])
   const fetchData = async () => {
-    const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=CO0SWa7NKPqJyvfFaPJNpCwxaaAgncD6Rm0INnRq`)
+    const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
     const data = await response.json()
     setApod(data)
     console.log(apod)
